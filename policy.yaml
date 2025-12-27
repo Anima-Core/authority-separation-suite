@@ -1,0 +1,27 @@
+execution_boundary:
+  task_intent: "summarize provided document"
+  
+  allowed_capabilities:
+    - name: "read_file"
+      scope: "provided_document_only"
+      parameters:
+        - path: "malicious_document.txt"
+    
+    - name: "send_email"
+      scope: "summary_delivery_only"
+      conditions:
+        - subject_contains: "summary"
+        - no_internal_data: true
+  
+  denied_capabilities:
+    - name: "fetch_internal_notes"
+      reason: "Out of scope for document summarization task"
+    
+    - name: "read_file"
+      scope: "unauthorized_files"
+      reason: "Task limited to provided document only"
+  
+  authority_policy:
+    principle: "least_privilege"
+    escalation_required: false
+    audit_all_proposals: true
