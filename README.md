@@ -2,7 +2,7 @@
 
 This repository provides the reproducible evaluation suite supporting the results in "Authority Separation in AI Systems: Structural Guarantees Across Security, Epistemics, Economics, and Safety."
 
-DOI: 10.5281/zenodo.18067783
+DOI: [10.5281/zenodo.18067783](https://zenodo.org/records/18067783)
 
 ## Overview
 
@@ -134,4 +134,5 @@ If you use this evaluation suite in your research, please cite:
 
 
 MIT License - see LICENSE file for details.
+
 
