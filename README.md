@@ -122,12 +122,13 @@ If you use this evaluation suite in your research, please cite:
 ```bibtex
 @article{authority-separation-2024,
   title={Authority Separation in AI Systems: Structural Guarantees Across Security, Epistemics, Economics, and Safety},
-  author={[Author Name]},
-  journal={[Journal Name]},
-  year={2024}
+  author={[Shamim, Ryan]},
+  journal={[Preprint]},
+  year={2025}
 }
 ```
 
 ## License
+
 
 MIT License - see LICENSE file for details.
