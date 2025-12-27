@@ -2,6 +2,8 @@
 
 This repository provides the reproducible evaluation suite supporting the results in "Authority Separation in AI Systems: Structural Guarantees Across Security, Epistemics, Economics, and Safety."
 
+DOI: 10.5281/zenodo.18067783
+
 ## Overview
 
 Authority separation addresses execution entanglement—the direct coupling of language model reasoning with action execution—which creates systematic vulnerabilities across multiple domains. This suite demonstrates that separating proposal generation from execution authority provides structural guarantees where prompt-based approaches exhibit persistent failures.
@@ -132,3 +134,4 @@ If you use this evaluation suite in your research, please cite:
 
 
 MIT License - see LICENSE file for details.
+
